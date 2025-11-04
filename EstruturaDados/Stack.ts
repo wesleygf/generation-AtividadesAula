@@ -40,7 +40,7 @@ interface stackInterface<Type> {
     }
  
     printStack(): void {
-       for (let i = this.StackData.length - 1; i >= 0 ; i--) {
+       for (let i =  0; i < this.StackData.length ; i++) {
           console.log(this.StackData[i]);
        }
     }
